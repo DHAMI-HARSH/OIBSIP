@@ -1,0 +1,64 @@
+body{
+    background-image: url(pop.jpeg);
+    
+}
+.BOX{
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  background-color: rgb(182, 255, 231);
+  align-items: center;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.13);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px);
+border: 1px solid rgba(255, 255, 255, 0.52);
+   
+}
+#number{
+    font-size: 30px;
+    padding: 12px;
+    margin: 18px;
+    color: red;
+    background-color:black;
+    border: 2px dotted;
+    border-radius: 10px;
+}
+#toFarenhiet{
+  font-size: 30px;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+
+}
+#submit{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: black;
+  color: red;
+  border: 5px cyan;
+  border-radius: 8px;
+  transition: 0.2s all;
+}
+#submit:hover{
+  background-color: white;
+  transform: scale(0.9);
+}
+#toCelcius{
+  font-size: 30px;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+}
+#result{
+  font-size: 40px;
+}
+label{
+  font-size: 20px;
+}
