@@ -6,14 +6,14 @@ let temp;
 
 function convert(){
     if(fahrenheit.checked){
-        temp = (number.value * 9/5) + 32;
+        temp = (number.value * 9/5) + 32+"K";
         resultElement.textContent=temp
          
 
 
     }
     else if(celsius.checked){
-        temp = (number.value - 32) * 5/9;
+        temp = (number.value - 32) * 5/9+ "℃";
         resultElement.textContent=temp
     }
     else{
