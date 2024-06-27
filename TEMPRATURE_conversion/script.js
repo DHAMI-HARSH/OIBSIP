@@ -6,7 +6,7 @@ let temp;
 
 function convert(){
     if(fahrenheit.checked){
-        temp = (number.value * 9/5) + 32+"K";
+        temp = (number.value * 9/5) + 32+"℉";
         resultElement.textContent=temp
          
 
