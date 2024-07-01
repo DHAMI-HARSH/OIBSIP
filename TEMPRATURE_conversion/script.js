@@ -4,13 +4,12 @@ const celsius = document.getElementById("toCelsius");
 const resultElement = document.getElementById("result"); 
 let temp;
 
-function convert(){
+
+
+const convert = () =>{
     if(fahrenheit.checked){
-        temp = (number.value * 9/5) + 32+"℉";
+        temp = (number.value * 9/5) + 32+"℉";   
         resultElement.textContent=temp
-         
-
-
     }
     else if(celsius.checked){
         temp = (number.value - 32) * 5/9+ "℃";
@@ -19,5 +18,4 @@ function convert(){
     else{
         alert("Please select a unit");
     }
-
 }
