@@ -12,10 +12,13 @@
 body {
     flex-direction: column;
     display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .container {
-    background-image: url(assets/BACK.jpg);
+    background-image: url(assets/back3.jpg);
     height: 100vh;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -23,6 +26,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .navbar {
@@ -102,6 +106,7 @@ h3 {
     justify-content: center;
     align-items: center;
     color: white;
+
     font-size: 28px;
     z-index: 1;
     text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
@@ -145,7 +150,8 @@ h3 {
 }
 
 .container2 {
-    height: 100vh;
+    height: 110vh;
+    
     background-image: url(assets/goa.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -162,7 +168,11 @@ h3 {
 }
 
 .c1 {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
     color: rgb(228, 223, 223);
     width: 400px;
     background-image: url(assets/card1.jpg);
@@ -181,7 +191,11 @@ h3 {
 }
 
 .c2 {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
     width: 400px;
     background-image: url(assets/card2.jpg);
     background-size: cover;
@@ -198,7 +212,11 @@ h3 {
 
 
 .c3 {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
     width: 400px;
 
     background-image: url(assets/card3.jpg);
@@ -233,6 +251,7 @@ h6 i {
 
 .cont {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 30px;
     font-size: 22px;
@@ -250,18 +269,18 @@ h6 i {
     font-size: 18px;
 }
 
-.cont button {
+.contb{
     padding: 14px;
-    margin-top: 20px;
+   
     background-color: gold;
-    color: white;
+    color: black;
     border-radius: 20px;
     border: none;
-    font-size: 20px;
+    font-size: 17px;
     transition: 0.2s all;
 }
 
-.cont button:hover {
+.contb:hover {
     transform: scale(1.1);
     background-color: gold;
 
@@ -270,6 +289,7 @@ h6 i {
 }
 
 .container3 {
+  
     height: 80vh;
     background-color: gold;
 }
